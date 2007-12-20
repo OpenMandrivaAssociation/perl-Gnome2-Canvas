@@ -17,6 +17,7 @@ Buildrequires: perl-devel
 
 Requires: perl-Gtk2 => 0.26
 Conflicts: drakxtools < 9.1-15mdk
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 provides: perl-GnomeCanvas = %version
 Obsoletes: perl-GnomeCanvas >= 0.28
 
