@@ -9,7 +9,7 @@ Group:   Development/GNOME and GTK+
 Source:  Gnome2-Canvas-%version.tar.bz2
 URL: http://gtk2-perl.sf.net/
 
-BuildRequires: libgnomecanvas2-devel
+BuildRequires: pkgconfig(libgnomecanvas-2.0)
 BuildRequires: perl-ExtUtils-Depends 
 BuildRequires: perl-Gtk2 => 0.26
 BuildRequires: perl-ExtUtils-PkgConfig
