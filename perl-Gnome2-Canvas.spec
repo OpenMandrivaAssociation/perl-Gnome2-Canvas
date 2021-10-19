@@ -24,7 +24,7 @@ widget with Gtk2-Perl.
 
 
 %prep
-%setup -qn %module-%{version}
+%autosetup -p1 -n %module-%{version}
 find -type d -name CVS | rm -rf 
 perl Makefile.PL INSTALLDIRS=vendor
 
@@ -35,12 +35,12 @@ make OPTIMIZE="$RPM_OPT_FLAGS"
 #%make test || :
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc AUTHORS LICENSE canvas_demo
 %{perl_vendorarch}/Gnome2/Canvas
 %{perl_vendorarch}/Gnome2/Canvas.*
 %{perl_vendorarch}/auto/*
-%{_mandir}/man3/*
+%doc %{_mandir}/man3/*
 
