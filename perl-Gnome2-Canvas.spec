@@ -9,6 +9,7 @@ Group:		Development/GNOME and GTK+
 Url:		https://gtk2-perl.sf.net/
 Source0:	Gnome2-Canvas-%{version}.tar.bz2
 Source100:	%{name}.rpmlintrc
+BuildRequires:	make
 BuildRequires:	perl-ExtUtils-Depends 
 BuildRequires:	perl-Gtk2 => 0.26
 BuildRequires:	perl-ExtUtils-PkgConfig
