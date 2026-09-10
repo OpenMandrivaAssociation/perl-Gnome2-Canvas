@@ -2,8 +2,8 @@
 
 Summary:	Perl module for the gnomecanvas library
 Name:		perl-%module
-Version:	1.002
-Release:35
+Version:	1.006
+Release:1
 License:	GPLv2 or Artistic
 Group:		Development/GNOME and GTK+
 Url:		https://gtk2-perl.sf.net/
