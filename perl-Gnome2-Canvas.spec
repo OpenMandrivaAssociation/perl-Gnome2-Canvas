@@ -7,7 +7,7 @@ Release:1
 License:	GPLv2 or Artistic
 Group:		Development/GNOME and GTK+
 Url:		https://gtk2-perl.sf.net/
-Source0:	Gnome2-Canvas-%{version}.tar.bz2
+Source0:	Gnome2-Canvas-%{version}.tar.gz
 Source100:	%{name}.rpmlintrc
 BuildRequires:	make
 BuildRequires:	perl-ExtUtils-Depends 
